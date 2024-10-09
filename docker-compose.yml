@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      MONGODB_URL: mongodb+srv://shubhra_72:hello1234@cluster0.hbtrmqg.mongodb.net/recipes
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"

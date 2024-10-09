@@ -1,0 +1,56 @@
+{
+  "name": "jobcy",
+  "version": "1.0.0",
+  "description": "A Job Search Web Application Software",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start --prefix frontend",
+    "server": "nodemon backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run start\""
+  },
+  "keywords": [
+    "Job",
+    "Search",
+    "Job",
+    "International",
+    "Job",
+    "Visa",
+    "Free",
+    "Job",
+    "Jobs",
+    "In",
+    "Germany"
+  ],
+  "author": "Boyinbode Ebenezer Ayomide",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_transactional": "^1.0.47",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "color": "^4.2.3",
+    "colors": "^1.4.0",
+    "concurrently": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "free-translate": "^0.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "node-mailjet": "^5.1.1",
+    "nodemailer": "^6.7.8",
+    "randomstring": "^1.2.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "tw-elements": "^1.0.0-alpha12",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
